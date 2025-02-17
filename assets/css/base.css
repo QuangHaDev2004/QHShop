@@ -31,7 +31,10 @@ a {
   color: var(--color-one);
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -46,3 +49,14 @@ ul {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+/* Button */
+.btn {
+  background-color: var(--color-one);
+  color: var(--color-two);
+  padding: 16px 54px;
+  border-radius: 62px;
+  display: inline-block;
+}
+
+/* End Button */
