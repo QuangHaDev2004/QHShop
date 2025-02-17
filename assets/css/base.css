@@ -59,4 +59,15 @@ ul {
   display: inline-block;
 }
 
+.btn-white {
+  background-color: transparent;
+  border: 1px solid #0000001A;
+  color: var(--color-one);
+}
+
 /* End Button */
+
+.head-title {
+  font-size: 48px;
+  text-align: center;
+}

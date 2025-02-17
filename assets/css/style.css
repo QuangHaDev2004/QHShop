@@ -175,3 +175,99 @@
 }
 
 /* End Banner */
+
+
+/* Famous brand */
+.famous-brand {
+  padding: 28px;
+  background-color: var(--color-one);
+}
+
+.famous-brand .inner-wrap {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.famous-brand img {
+  height: 32px;
+}
+
+/* End Famous brand */
+
+
+/* Fashion new */
+.fashion-new {
+  padding: 60px 0;
+  border-bottom: 1px solid #0000001A;
+}
+
+.fashion-new .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.fashion-new .inner-item {
+  width: calc(100%/4 - 16px);
+}
+
+.fashion-new img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.fashion-new .inner-title {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+.fashion-new i {
+  color: var(--color-three);
+}
+
+.fashion-new ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.fashion-new li {
+  margin-right: 8px;
+}
+
+.fashion-new .number-star {
+  margin-left: 8px;
+  color: #00000099;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.fashion-new .inner-price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fashion-new .price {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.fashion-new .inner-price-old {
+  color: #00000066;
+  font-size: 14px;
+  text-decoration: line-through;
+  font-weight: 700;
+}
+
+.fashion-new .discount {
+  background-color: var(--color-five);
+  color: var(--color-four);
+  padding: 6px 14px;
+  border-radius: 62px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* End Fashion new */
