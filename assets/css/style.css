@@ -433,3 +433,85 @@
 }
 
 /* End Contact */
+
+
+/* Footer */
+.footer {
+  padding-top: 48px;
+}
+
+.footer .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #0000001A;
+}
+
+.footer .inner-logo {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.footer .inner-desc {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--color-text);
+  max-width: 248px;
+  margin: 20px 0;
+}
+
+.footer .social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer .social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-two);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #00000033;
+  font-size: 12px;
+}
+
+.footer .social .fb {
+  background-color: var(--color-one);
+  color: var(--color-two);
+}
+
+.footer .inner-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.footer .inner-box li {
+  color: #00000099;
+  margin-bottom: 18px;
+}
+
+.sub-footer {
+  padding: 30px 0;
+}
+
+.sub-footer .sub-title {
+  color: #00000099;
+  font-size: 14px;
+}
+
+.sub-footer .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-footer .payment {
+  display: flex;
+}
+
+/* End Footer */
