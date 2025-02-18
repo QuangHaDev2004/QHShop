@@ -383,3 +383,53 @@
 }
 
 /* End Comment */
+
+
+/* Contact */
+.contact .inner-wrap {
+  padding: 36px 64px;
+  background-color: var(--color-one);
+  color: var(--color-two);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .inner-title {
+  font-size: 40px;
+  line-height: 54px;
+  max-width: 551px;
+}
+
+.contact form {
+  width: 349px;
+}
+
+.contact .input-group {
+  background-color: var(--color-two);
+  color: var(--color-text);
+  padding: 12px 16px;
+  border-radius: 62px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.contact input {
+  border: none;
+  outline: none;
+}
+
+.contact input::placeholder {
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+.contact .btn {
+  padding: 12px 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* End Contact */

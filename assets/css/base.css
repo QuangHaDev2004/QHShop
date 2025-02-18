@@ -57,10 +57,11 @@ ul {
   padding: 16px 54px;
   border-radius: 62px;
   display: inline-block;
+  font-weight: 500;
 }
 
 .btn-white {
-  background-color: transparent;
+  background-color: var(--color-two);
   border: 1px solid #0000001A;
   color: var(--color-one);
 }
