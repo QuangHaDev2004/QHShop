@@ -1,9 +1,18 @@
 /* header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 .sub-header {
   background-color: var(--color-one);
   color: var(--color-two);
   padding: 10px 0;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
 }
 
 .sub-header .inner-wrap {
@@ -25,6 +34,9 @@
 
 .header {
   padding: 20px 0;
+  background-color: var(--color-two);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .header .inner-wrap {
@@ -87,14 +99,23 @@
 
 }
 
+header.hide-sub-header .sub-header {
+  transform: translateY(-100%);
+}
+
+header.hide-sub-header .header {
+  transform: translateY(-36px);
+}
+
 /* End header */
 
 
 /* Banner */
 .banner {
   background-color: var(--bg-one);
-  height: 610px;
+  height: 729px;
   overflow: hidden;
+  padding-top: 120px;
 }
 
 .banner .inner-wrap {
